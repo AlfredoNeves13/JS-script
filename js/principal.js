@@ -7,7 +7,7 @@ titulo.textContent = "Aparecida Nutricionista";
 //var imc = peso / (altura * altura);
 //paulo.querySelect (".info-imc").textContent = imc;
 
-var pacientes =document.querySelectorAll(".paciente");
+var pacientes = document.querySelectorAll(".paciente");
 
 for(let contador = 0;contador < pacientes.length; contador++){
     var paciente = pacientes[contador]
